@@ -111,13 +111,6 @@ In this section we analyze the performance of our mellowmax policy. Here, we com
 
 ![Results_image](https://raw.githubusercontent.com/intisarnaheen/Bayesian-Reinforcement-Learning-with-Maximum-Entropy/master/Snapshots/Number%20of%20iterations.PNG)
 
-In this section we make a comparative analysis the Monte- Carlo gradient estimation algorithm with mellowmax policy(Algorithm 7) and the Monte Carlo gradient estimation algorithm with boltzmann policy(Algorithm 6) First the results on the chain problem has been discussed. We compare our result both on cumulative reward and cumulative discounted reward.
-
-![Results_image](https://raw.githubusercontent.com/intisarnaheen/Bayesian-Reinforcement-Learning-with-Maximum-Entropy/master/Snapshots/Cumulative%20reward%20_a.PNG)
-
-![Results_image](https://raw.githubusercontent.com/intisarnaheen/Bayesian-Reinforcement-Learning-with-Maximum-Entropy/master/Snapshots/Cumulative%20reward%20_b.PNG)
-
-![Results_image](https://raw.githubusercontent.com/intisarnaheen/Bayesian-Reinforcement-Learning-with-Maximum-Entropy/master/Snapshots/Cumulative%20reward%20_c.PNG)
 
 ## Contribution
 
@@ -146,7 +139,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 [@Follow me on twitter](https://twitter.com/itnsir) <br>
 Email me - intisar.naheen@northsouth.edu <br>
-Project Link: [Bayesian Reinforcement Learning with Maximum Entropy Finite State Controllers.](https://github.com/intisarnaheen/Bayesian-Reinforcement-Learning-with-Maximum-Entropy)
+Project Link: [Face Recognition API](https://github.com/intisarnaheen/Face-Recognition-API)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
