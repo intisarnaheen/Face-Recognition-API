@@ -1,4 +1,4 @@
-# Face-Recognition-API
+# Face Recognition API
 
 <div id="top"></div>
 
