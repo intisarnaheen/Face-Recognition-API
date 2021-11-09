@@ -64,9 +64,9 @@ This project was successfully built with the following libraries. To install the
 
 Based on the system of my project, the technical procedures has these breakdowns. Face Recognition API is the process of identifying or verifying the identity of a person using their face. It captures, analyzes, and compares patterns based on the person's facial details.
 
-The face detection process is an essential step in detecting and locating human faces in images and realtime videos(on upcoming updates)
-The face capture process transforms analog information (a face) into a set of digital information (data or vectors) based on the person's facial features.
-The face match process verifies if two faces belong to the same person and pops up with a string of the detected person's name fetched from the database through API.
+* The face detection process is an essential step in detecting and locating human faces in images and realtime videos(on upcoming updates)
+* The face capture process transforms analog information (a face) into a set of digital information (data or vectors) based on the person's facial features.
+* The face match process verifies if two faces belong to the same person and pops up with a string of the detected person's name fetched from the database through API.
 
 
 ### Prerequisites
