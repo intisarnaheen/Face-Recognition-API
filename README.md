@@ -1,5 +1,7 @@
 # Face Recognition API
 
+![Results_image](https://raw.githubusercontent.com/intisarnaheen/Bayesian-Reinforcement-Learning-with-Maximum-Entropy/master/Snapshots/Number%20of%20iterations.PNG)
+
 <div id="top"></div>
 
 [![Contributors][contributors-shield]][contributors-url]
