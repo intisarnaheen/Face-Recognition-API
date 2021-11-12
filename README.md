@@ -71,17 +71,29 @@ Based on the system of my project, the technical procedures has these breakdowns
 
 ### Installation
 
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/intisarnaheen/Face-Recognition-API.git
    ```
-3. Install NPM packages
+2. Install OpenCV
    ```sh
-   npm install
+   pip install opencv-python
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Install numpy
+   ```sh
+   pip install numpy
+   ```
+4. Install Tensorflow
+   ```sh
+   pip install tensorflow
+   ```
+5. Install Pickle
+   ```sh
+   pip install pickle5
+   ```
+6. Install Glob
+   ```sh
+   pip install glob2
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -96,7 +108,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-## Results
+## Software Architecture Diagram
 
 In this section we analyze the performance of our mellowmax policy. Here, we compare the influence of the number of memory states of the fsc. It is expected that as the number of memory states increases the performance of the finite state controller should improve.
 
