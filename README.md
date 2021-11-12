@@ -1,16 +1,13 @@
 # Face Recognition API
+<p align="left"> 
+<img src="https://komarev.com/ghpvc/?username=intisarnaheen&color=blueviolet" alt="watching_count" />
+  <img src="https://img.shields.io/badge/Focus-Computer%20Vision%2C%20Machine%20Learning-brightgreen" />
+  <img src="https://img.shields.io/badge/License-MIT-blue" />
+</p>
 
 ![Results_image](https://raw.githubusercontent.com/intisarnaheen/Face-Recognition-API/main/snapshots/adf3f3a5acf468eb1a2e23849ddbe4ec.gif)
 
 <div id="top"></div>
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
 
 <br />
 
@@ -52,11 +49,11 @@ Face recognition is a technology capable of identifying or verifying a subject t
 
 This project was successfully built with the following libraries. To install the libraries and use the codebase, you should properly be aware of the version conflicts of tensorflow and numpy as well. But I strongly recommend to use Anaconda for that.
 
-* [numpy](https://python.org/)
-* [Tensorflow](https://nextjs.org/)
-* [Gymspaces](https://reactjs.org/)
-* [Matplotlib](https://vuejs.org/)
-* [Scipy](https://vuejs.org/)
+* [OpenCV](https://opencv.org/)
+* [numpy](https://numpy.org/)
+* [Tensorflow](https://www.tensorflow.org/)
+* [Pickle](https://docs.python.org/3/library/pickle.html)
+* [Glob](https://docs.python.org/3/library/glob.html)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -71,20 +68,12 @@ Based on the system of my project, the technical procedures has these breakdowns
 * The face match process verifies if two faces belong to the same person and pops up with a string of the detected person's name fetched from the database through API.
 
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/intisarnaheen/Face-Recognition-API.git
    ```
 3. Install NPM packages
    ```sh
