@@ -101,9 +101,30 @@ Based on the system of my project, the technical procedures has these breakdowns
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+In the Codebase, you will find a folder named 'Checkpoint'. There are some data files and pretrained models those are loaded into the main stream. There is a python file named 'test_img.py', that is used to recognize from an image. Let's have a look where pretrained model is loaded and where the output recognized image data is saved and some stuffs:
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+   ```sh
+   file = open(path+"/embds_dict_ad.pkl", 'rb') #Line number 21
+   ```
+   ```sh
+   cfg = load_yaml(path+'/configs/arc_res50.yaml') #Line number 32
+   ```
+Here the first line does the embedding part and the second one loads the data.
+   ```sh
+   test_path="/home/Face-Recognition/test_images/" #Line number 96
+   ```
+You can run this .py file and test your sample images setting your own directory in this line.
+Same like this algorithm, test_frame.py works the same; but it works for the video file instead. For example, it can work with realtime camera or video file and read that frame by frame and recognize it and save the cropped recognized face afterwards. The whole recognition process is validated through the API which is the backbone here.
+The file app.py hold this API. This API holds two methods: GET & POST.
+   ```sh
+    @app.route('/recognition', methods=['POST']) #Line number 27
+    .
+    .
+    .
+    .
+    return jsonify({'result': 'error during prediction', 'error': e}) #Line number 42
+   ``` 
+This function receives the request to check the image or frame from the model and sends the response in JSON format to the application.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -150,31 +171,10 @@ Project Link: [Face Recognition API](https://github.com/intisarnaheen/Face-Recog
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [CPSD Technologies Limited](#)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
